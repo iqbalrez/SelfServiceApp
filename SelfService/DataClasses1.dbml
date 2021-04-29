@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IQBALREZ" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=IQBALREZ;Initial Catalog=IQBALREZ;Integrated Security=True" SettingsObjectName="SelfService.Properties.Settings" SettingsPropertyName="IQBALREZConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ProductEntities" Member="ProductEntities">
+    <Type Name="ProductEntity">
+      <Column Name="ShirtType" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ShirtBrand" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ShirtSize" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ShirtStock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ShirtPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="PantsType" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PantsBrand" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="PantsSize" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="PantsStock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PantsPrice" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
